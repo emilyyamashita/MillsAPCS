@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ PrintM()
+comment2.params=
+comment2.target=void\ PrintTwoM()
+comment3.params=
+comment3.target=void\ PrintI()
+comment4.params=
+comment4.target=void\ PrintOneI()
+comment5.params=
+comment5.target=void\ PrintS()
+comment6.params=
+comment6.target=void\ PrintFiveS()
+comment7.params=
+comment7.target=void\ PrintP()
+comment8.params=
+comment8.target=void\ PrintSixP()
+comment9.params=
+comment9.target=void\ PrintOneP()
+numComments=10
