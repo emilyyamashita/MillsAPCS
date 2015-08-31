@@ -1,180 +1,184 @@
+/* Revise the Twelve Days of Christmas so that it practices good coding techniquies.
+    by: Emily Yamashita
+    date: 08/31/2015
+*/
 public class TwelveDays
 {
     public static void main(String[] args)
     {
-        FirstDay();
-        SecondDay();
-        ThirdDay();
-        FourthDay();
-        FifthDay();
-        SixthDay();
-        SeventhDay();
-        EighthDay();
-        NinthDay();
-        TenthDay();
-        EleventhDay();
-        TwelfthDay();
+        firstDay();
+        secondDay();
+        thirdDay();
+        fourthDay();
+        fifthDay();
+        sixthDay();
+        seventhDay();
+        eighthDay();
+        ninthDay();
+        tenthDay();
+        eleventhDay();
+        twelfthDay();
     }
-    public static void FirstDay()
+    public static void firstDay()
     {
         System.out.println("On the first day of Christmas,");
-        PrintTrueLove();
-        PrintPartridge();
+        printTrueLove();
+        printPartridge();
     }
-    public static void SecondDay()
+    public static void secondDay()
     {
         System.out.println("On the second day of Christmas,");
-        PrintTrueLove();
-        PrintTurtleDoves();
-        PrintPartridge();
+        printTrueLove();
+        printTurtleDoves();
+        printPartridge();
     }
-    public static void ThirdDay()
+    public static void thirdDay()
     {
         System.out.println("On the third day of Christmas,");
-        PrintTrueLove();
-        PrintFrenchHens();
-        PrintTurtleDoves();
-        PrintPartridge();
+        printTrueLove();
+        printFrenchHens();
+        printTurtleDoves();
+        printPartridge();
     }
-    public static void FourthDay()
+    public static void fourthDay()
     {
         System.out.println("On the fourth day of Christmas,");
-        PrintTrueLove();
-        PrintFirstFourGifts();
+        printTrueLove();
+        printFirstFourGifts();
     }
-    public static void FifthDay()
+    public static void fifthDay()
     {
         System.out.println("On the fifth day of Christmas,");
-        PrintTrueLove();
-        PrintGoldenRings();
-        PrintFirstFourGifts();
+        printTrueLove();
+        printGoldenRings();
+        printFirstFourGifts();
     }
-    public static void SixthDay()
+    public static void sixthDay()
     {
         System.out.println("On the sixth day of Christmas,");
-        PrintTrueLove();
-        PrintGeese();
-        PrintGoldenRings();
-        PrintFirstFourGifts();
+        printTrueLove();
+        printGeese();
+        printGoldenRings();
+        printFirstFourGifts();
     }
-    public static void SeventhDay()
+    public static void seventhDay()
     {
         System.out.println("On the seventh day of Christmas,");
-        PrintTrueLove();
-        PrintSwans();
-        PrintGeese();
-        PrintGoldenRings();
-        PrintFirstFourGifts();
+        printTrueLove();
+        printSwans();
+        printGeese();
+        printGoldenRings();
+        printFirstFourGifts();
     }
-    public static void EighthDay()
+    public static void eighthDay()
     {
         System.out.println("On the eighth day of Christmas,");
-        PrintTrueLove();
-        PrintFirstEightGifts();
+        printTrueLove();
+        printFirstEightGifts();
     }
-    public static void NinthDay()
+    public static void ninthDay()
     {
         System.out.println("On the ninth day of Christmas,");
-        PrintTrueLove();
-        PrintLadies();
-        PrintFirstEightGifts();
+        printTrueLove();
+        printLadies();
+        printFirstEightGifts();
     }
-    public static void TenthDay()
+    public static void tenthDay()
     {
         System.out.println("On the tenth day of Christmas,");
-        PrintTrueLove();
-        PrintLords();
-        PrintLadies();
-        PrintFirstEightGifts();
+        printTrueLove();
+        printLords();
+        printLadies();
+        printFirstEightGifts();
     }
-    public static void EleventhDay()
+    public static void eleventhDay()
     {
         System.out.println("On the eleventh day of Christmas,");
-        PrintTrueLove();
-        PrintPipers();
-        PrintLords();
-        PrintLadies();
-        PrintFirstEightGifts();
+        printTrueLove();
+        printPipers();
+        printLords();
+        printLadies();
+        printFirstEightGifts();
     }
-    public static void TwelfthDay()
+    public static void twelfthDay()
     {
         System.out.println("On the twelfth day of Christmas,");
-        PrintTrueLove();
-        PrintAllTwelveGifts();
+        printTrueLove();
+        printAllTwelveGifts();
     } 
-    public static void PrintTrueLove()
+    public static void printTrueLove()
     {
         System.out.println("my true love sent to me");
     }
-    public static void PrintPartridge()
+    public static void printPartridge()
     {
         System.out.println("a partridge in a pear tree.");
     }
-    public static void PrintTurtleDoves()
+    public static void printTurtleDoves()
     {
         System.out.println("two turtle doves, and");
     }
-    public static void PrintFrenchHens()
+    public static void printFrenchHens()
     {
         System.out.println("three French hens,");
     }
-    public static void PrintCallingBirds()
+    public static void printCallingBirds()
     {
         System.out.println("four calling birds,");
     }
-    public static void PrintGoldenRings()
+    public static void printGoldenRings()
     {
         System.out.println("five golden rings,");
     }
-    public static void PrintGeese()
+    public static void printGeese()
     {
         System.out.println("six geese a-laying,");
     }
-    public static void PrintSwans()
+    public static void printSwans()
     {
         System.out.println("seven swans a-swimming,");
     }
-    public static void PrintMaids()
+    public static void printMaids()
     {
         System.out.println("eight maids a-milking,");
     }
-    public static void PrintLadies()
+    public static void printLadies()
     {
         System.out.println("nine ladies dancing,");
     }
-    public static void PrintLords()
+    public static void printLords()
     {
         System.out.println("ten lords a-leaping,");
     }
-    public static void PrintPipers()
+    public static void printPipers()
     {
         System.out.println("eleven pipers piping,");
     }
-    public static void PrintDrummers()
+    public static void printDrummers()
     {
         System.out.println("Twelve drummers drumming,");
     }
-    public static void PrintFirstFourGifts()
+    public static void printFirstFourGifts()
     {
-        PrintCallingBirds();
-        PrintFrenchHens();
-        PrintTurtleDoves();
-        PrintPartridge();
+        printCallingBirds();
+        printFrenchHens();
+        printTurtleDoves();
+        printPartridge();
     }
-    public static void PrintFirstEightGifts()
+    public static void printFirstEightGifts()
     {
-        PrintMaids();
-        PrintSwans();
-        PrintGeese();
-        PrintGoldenRings();
-        PrintFirstFourGifts();
+        printMaids();
+        printSwans();
+        printGeese();
+        printGoldenRings();
+        printFirstFourGifts();
     }
-    public static void PrintAllTwelveGifts()
+    public static void printAllTwelveGifts()
     {
-        PrintDrummers();
-        PrintPipers();
-        PrintLords();
-        PrintLadies();
-        PrintFirstEightGifts();
+        printDrummers();
+        printPipers();
+        printLords();
+        printLadies();
+        printFirstEightGifts();
     }
 }
